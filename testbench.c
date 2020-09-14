@@ -50,7 +50,7 @@ void TC1_5(void)
 {
    printf("Test case 5\t");
    int ret=wiper(1,150);
-   int exp=5;
+   int exp=25;
    EXPECT_EQ(exp,ret);
 
 }
